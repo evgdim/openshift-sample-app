@@ -8,7 +8,7 @@ import com.github.evgdim.oc.model.Message;
 
 @RestController
 public class HomeController {
-	@GetMapping(produces = { MediaType.APPLICATION_XML_VALUE })
+	@GetMapping//(produces = { MediaType.APPLICATION_XML_VALUE })
 	public Message index() {
 		return new Message("OK");
 	}
